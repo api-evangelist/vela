@@ -1,0 +1,48 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.tryvela.ai/
+url: https://trust.tryvela.ai/
+platform: SafeBase (powered by Drata)
+certifications:
+- SOC 2 Type 2
+- GDPR
+- CCPA
+- NIST CSF
+- NIST AI RMF
+documents:
+- Privacy Policy
+- Terms of Service
+- Data Flow Diagram
+- Network Diagram
+- Pentest Report
+practices:
+- encryption-at-rest
+- penetration-testing
+- responsible-disclosure-program
+- bot-detection
+- anti-ddos
+- status-monitoring
+- access-monitoring
+- employee-background-checks
+- annual-security-training
+- incident-response
+subprocessors:
+- Lovable
+- Google Workspace
+- Supabase
+- Anthropic
+- Amazon Web Services (AWS)
+infrastructure: AWS
+evidence:
+- source: https://trust.tryvela.ai/
+  keywords:
+  - soc 2 type 2
+  - trust center
+  - gdpr
+  - ccpa
+  - nist csf
+  - nist ai rmf
+  - responsible disclosure
+  - pentest report
+  - subprocessors

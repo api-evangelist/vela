@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on Vela hosts
+hosts:
+- host: https://tryvela.ai
+  documents:
+  - path: /.well-known/security.txt                # RFC 9116
+    status: 404
+  - path: /.well-known/openid-configuration        # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog                 # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.tryvela.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  No /.well-known/ discovery surface is published. api.tryvela.ai resolves
+  and serves a live JSON backend (root returns {"error":"requested path is
+  invalid"}; /health returns 401) but exposes no public spec, docs, or
+  discovery documents. The marketing site is a SPA that soft-404s unknown
+  routes; the only real routes in its bundle are /book-demo, /privacy,
+  and /terms.

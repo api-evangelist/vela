@@ -1,0 +1,22 @@
+# Vela
+
+> Vela is an AI scheduling assistant (Y Combinator W26) that handles the ambiguity that breaks scheduling: add it to any email thread or messaging conversation and it negotiates on your behalf — proposing times across timezones, following up with participants, resolving calendar conflicts, rescheduling, and sending invites. Used by enterprise recruiters coordinating thousands of multi-party interviews a week.
+
+Vela works across Gmail, Outlook, Slack, Microsoft Teams, WhatsApp, SMS, and phone. It does not currently publish a public API, developer documentation, or SDKs.
+
+## Company
+
+- [Website](https://tryvela.ai): Product overview, how it works, and FAQ
+- [Book a demo](https://tryvela.ai/book-demo): Schedule a product demo
+- [Y Combinator profile](https://www.ycombinator.com/companies/vela): Company profile, founders, and jobs
+- [GitHub organization](https://github.com/TryVela): No public repositories yet
+
+## Trust & Legal
+
+- [Trust center](https://trust.tryvela.ai/): SafeBase trust center — SOC 2 Type 2, GDPR, CCPA, NIST CSF, NIST AI RMF; pentest report and subprocessor list
+- [Terms of service](https://tryvela.ai/terms)
+- [Privacy policy](https://tryvela.ai/privacy)
+
+## Contact
+
+- Email: contact@tryvela.ai

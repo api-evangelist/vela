@@ -1,8 +1,28 @@
 aid: vela
 name: Vela
-description: Vela is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vela is an AI scheduling assistant from Y Combinator's Winter 2026 batch that
+  handles the ambiguity that breaks scheduling. Added to any email thread or
+  messaging conversation, it negotiates on the user's behalf — reading context,
+  proposing meeting times across timezones, following up with participants,
+  detecting calendar conflicts, rescheduling, and sending invites once
+  scheduling is finalized. It works across Gmail, Outlook, Slack, Teams,
+  WhatsApp, SMS, and phone, and is used by enterprise recruiters coordinating
+  thousands of multi-party interviews a week as well as executives who need
+  white-glove coordination at scale.
 url: https://raw.githubusercontent.com/api-evangelist/vela/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tryvela.ai/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +31,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Scheduling
+- Artificial Intelligence
+- AI Agents
+- Meetings
+- Calendar
+- Recruiting
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/vela-trust-center.yml
+- type: DomainSecurity
+  url: security/vela-domain-security.yml
+- type: Website
+  url: https://tryvela.ai
+- type: TermsOfService
+  url: https://tryvela.ai/terms
+- type: PrivacyPolicy
+  url: https://tryvela.ai/privacy
+- type: Support
+  url: mailto:contact@tryvela.ai
+- type: GitHubOrganization
+  url: https://github.com/TryVela
+- type: VulnerabilityDisclosure
+  url: security/vela-vulnerability-disclosure.yml
+- type: Security
+  url: https://trust.tryvela.ai/
+- type: Compliance
+  url: https://trust.tryvela.ai/
+- type: LLMsTxt
+  url: llms/vela-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
